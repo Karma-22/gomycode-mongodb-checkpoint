@@ -1,0 +1,15 @@
+{
+  "name": "gomycode-mongodb-checkpoint",
+  "version": "1.0.0",
+  "description": "GoMyCode Bootcamp - MongoDB Checkpoint (Database contact, Collection contactlist, CRUD operations and Queries)",
+  "author": "Karma-22 (Darius Ange)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test tests/mongo.test.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.8.0"
+  }
+}
